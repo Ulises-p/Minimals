@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -356,4 +357,328 @@
   </div>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js" defer></script>
+  <title>Crea tu cuenta</title>
+</head>
+
+<body>
+  <header class="bg-secondary">
+    <nav class="navbar navbar-expand-lg">
+      <!-- Logo de la tienda -->
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="img/iconos/logo.svg" alt="Logo" width="80" class="d-inline-block align-text-top" />
+           <h1 class="nombre-marc ms-2 display-font-family">Minimal</h1>
+        </a>
+
+        <!-- botones que aparece cuando la pantalla se hace pequeña -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Esto es el menu que dasaparece cuando la pantalla se hace pequeña -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <!-- menu de las diferentes tipos de ropa-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Ropa
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="mujer.html">Mujer</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="hombre.html">Hombre</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" data-bs-toggle="popover" data-bs-title="Acción no disponible" data-bs-content="Aun no esta disponible">Niño</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="popover" data-bs-title="Acción no disponible" data-bs-content="Aun no esta disponible">Sobre nosotros</a>
+            </li>
+
+            <!-- aparece cuando la resolucion es pequeña -->
+            <li class="nav-item dropdown d-block d-md-none">
+              <a class="nav-link" href="#"> Cesta de la compra </a>
+            </li>
+
+            <!-- Esta opcion aparece cuando la patalla se hace pequeña para modificar el usuario -->
+            <li class="nav-item dropdown d-block d-md-none">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Perfil
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="configuracion.html">Configuracion</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" data-bs-toggle="popover"
+                    data-bs-content="Sin implementar">Perfil</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#" data-bs-toggle="popover" data-bs-title="Acción no disponible" data-bs-content="Aun no esta disponible">Cerrar
+                    sesion</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- barra de busqueda -->
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-primary" type="button" data-bs-toggle="popover" data-bs-title="Acción no disponible" data-bs-content="Aun no esta disponible">
+              Search
+            </button>
+          </form>
+          <!-- Icono de la cesta de la compra-->
+          <div class="dropdown text-end d-none d-md-block mx-2">
+            <a href="#" class="d-block link-dark text-decoration-none dropdown" id="dropdownUser1"
+              data-bs-toggle="tooltip" title="Carrito de la compra">
+              <!-- Este enlace tambien es un Tooltips -->
+              <img src="img/iconos/cesta-de-la-compra.svg" alt="mdo" width="27" class="rounded-circle" />
+            </a>
+          </div>
+
+          <!-- imagen del perfil que te da las opciones de configuracion de usuario y desaparece cuando la patalla es pequeña-->
+          <div class="dropdown text-end d-none d-md-block mx-2">
+            <a href="#" class="d-block link-dark text-decoration-none dropdown" id="dropdownUser1"
+              data-bs-toggle="dropdown" data-bs-toggle="tooltip" title="Perfil">
+              <img src="img/iconos/perfil.svg" alt="mdo" width="30" height="30" class="rounded-circle" />
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end text-small" aria-labelledby="dropdownUser1">
+              <li>
+                <a class="dropdown-item" href="configuracion.html">Configuracion</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" data-bs-toggle="popover" data-bs-title="Acción no disponible" data-bs-content="Aun no esta disponible">Perfil</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#" data-bs-toggle="popover" data-bs-title="Acción no disponible" data-bs-content="Aun no esta disponible">Cerrar
+                  sesion</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container-xxl">
+    <h2 class="config">Configuracion del perfil</h2>
+    <div class="d-flex justify-content-center align-content-center p-3">
+      <form class="w-100 p-3">
+        <div class="row">
+          <div class="mb-3 col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" />
+          </div>
+          <div class="mb-3 col-md-6">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" name="apellido" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="mb-3 col-md-6">
+            <label for="cumple" class="form-label">Fecha de cumpleaños</label>
+            <input type="date" class="form-control" id="cumple" name="cumple" />
+          </div>
+          <div class="mb-3 col-md-6">
+            <label for="gmail" class="form-label">Gmail</label>
+            <input type="email" class="form-control" id="gmail" name="gmail" placeholder="tucuenta@gmail.com" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="mb-3 col-md-6">
+            <label for="direccion" class="form-label">Dirección</label>
+            <input type="text" class="form-control" id="direccion" name="direccion" />
+          </div>
+          <div class="mb-3 col-md-6">
+            <label class="form-label">Género</label>
+            <select class="form-select" name="genero">
+              <option value="" selected disabled>
+                Selecciona una opción
+              </option>
+              <option value="Masculino">Masculino</option>
+              <option value="Femenino">Femenino</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="mb-3 col-md-6">
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Sólo dígitos" />
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="notificaciones" name="notificaciones" />
+              <label class="form-check-label" for="notificaciones">
+                Quiero recibir notificaciones
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="mb-3 col-md-6">
+            <label for="password" class="form-label">Cambiar contraseña</label>
+            <input type="password" class="form-control" id="password" name="password" />
+          </div>
+          <div class="mb-3 col-md-6">
+            <label for="confirm_password" class="form-label">Confirmar la contraseña</label>
+            <input type="password" class="form-control" id="confirm_password" name="confirm_password" />
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary m-2 w-100" data-bs-toggle="popover" data-bs-title="Acción no disponible" data-bs-content="Aun no esta disponible">Guardar</button>
+      </form>
+    </div>
+
+    <div class="d-flex flex-column justify-content-center align-content-center p-3">
+      <div>
+        <h2 class="w-100 p-3 text-center">Ventajas</h2>
+      </div>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Aspecto</th>
+            <th>Tener Cuenta</th>
+            <th>No Tener Cuenta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Acceso a promociones exclusivas</td>
+            <td>Acceso a descuentos especiales y ofertas exclusivas</td>
+            <td>No tiene acceso a promociones exclusivas</td>
+          </tr>
+          <tr>
+            <td>Facilidad en compras</td>
+            <td>Guardar direcciones, métodos de pago y pedidos anteriores</td>
+            <td>Debe ingresar datos manualmente en cada compra</td>
+          </tr>
+          <tr>
+            <td>Recompensas y puntos</td>
+            <td>Acumula puntos y recibe recompensas por compras</td>
+            <td>No acumula puntos ni recibe recompensas</td>
+          </tr>
+          <tr>
+            <td>Riesgo de seguridad</td>
+            <td>Riesgo moderado si la cuenta no está bien protegida</td>
+            <td>Sin riesgo de robo de cuenta</td>
+          </tr>
+          <tr>
+            <td>Comodidad en seguimiento</td>
+            <td>Seguimiento fácil de pedidos y historial</td>
+            <td>Más difícil rastrear pedidos sin cuenta</td>
+          </tr>
+          <tr>
+            <td>Creación y gestión</td>
+            <td>Requiere tiempo para registro y manejo de la cuenta</td>
+            <td>Compra rápida sin registro</td>
+          </tr>
+          <tr>
+            <td>Atención personalizada</td>
+            <td>Soporte y atención al cliente preferente</td>
+            <td>Atención estándar sin preferencia</td>
+          </tr>
+          <tr>
+            <td>Confidencialidad de datos</td>
+            <td>Debe compartir datos personales con la tienda</td>
+            <td>Menos exposición de datos personales</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="container-fuild px-3 py-4 d-flex bg-secondary">
+    <div class="col-4 d-flex flex-column align-content-center justify-content-between">
+      <a class="navbar-brand" href="index.html" data-bs-toggle="tooltip" title="Logo">
+        <img src="img/iconos/logo-imagotipo.svg" alt="Logo" width="100" class="d-inline-block align-text-top" />
+      </a>
+
+      <div class="d-flex gap-3">
+        <a class="navbar-brand" href="index.html" data-bs-toggle="tooltip" title="Facebook">
+          <img src="img/iconos/facebook.svg" alt="icono facebook" width="30" class="d-inline-block align-text-top" />
+        </a>
+        <a class="navbar-brand" href="index.html" data-bs-toggle="tooltip" title="Instagram">
+          <img src="img/iconos/instagram.svg" alt="icono instagram" width="30" class="d-inline-block align-text-top" />
+        </a>
+        <a class="navbar-brand" href="index.html" data-bs-toggle="tooltip" title="X">
+          <img src="img/iconos/twitter.svg" alt="icono X" width="30" class="d-inline-block align-text-top" />
+        </a>
+      </div>
+    </div>
+    <div class="col-4 d-flex flex-column">
+      <h5>Navegación</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">
+          <a href="index.html" class="nav-link p-0 text-body-secondary">Inicio</a>
+        </li>
+        <li class="nav-item mb-2">
+          <a href="mujer.html" class="nav-link p-0 text-body-secondary">Ropa de mujer</a>
+        </li>
+        <li class="nav-item mb-2">
+          <a href="hombre.html" class="nav-link p-0 text-body-secondary">Ropa de hombre</a>
+        </li>
+        <li class="nav-item mb-2">
+          <a href="#" class="nav-link p-0 text-body-secondary">Ropa de niño</a>
+        </li>
+        <li class="nav-item mb-2">
+          <a href="#" class="nav-link p-0 text-body-secondary">Sobre nosotros</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-4 d-flex flex-column">
+      <h5>Terminos</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">
+          <a href="#" class="nav-link p-0 text-body-secondary">Avisos Legales</a>
+        </li>
+        <li class="nav-item mb-2">
+          <a href="#" class="nav-link p-0 text-body-secondary">Condiciones generales</a>
+        </li>
+        <li class="nav-item mb-2">
+          <a href="#" class="nav-link p-0 text-body-secondary">Privacidad</a>
+        </li>
+        <li class="nav-item mb-2">
+          <a href="#" class="nav-link p-0 text-body-secondary">Cookies</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+>>>>>>> e2b8109469468680ad077108cc891f2b20654da9
 </html>

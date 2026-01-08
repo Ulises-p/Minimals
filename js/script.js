@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Este escript solo sirve para que el popovers en la etiqueta a valla
 var popoverTriggerList = [].slice.call(
   document.querySelectorAll('[data-bs-toggle="popover"]')
@@ -35,4 +36,14 @@ function controlarVideo(accion) {
 const miModal = document.getElementById('videoModal');
 miModal.addEventListener('hidden.bs.modal', function () {
   video.pause();
+=======
+// Este escript solo sirve para que el popovers en la etiqueta a valla
+var popoverTriggerList = [].slice.call(
+  document.querySelectorAll('[data-bs-toggle="popover"]')
+);
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl, {
+    trigger: "focus",
+  });
+>>>>>>> e2b8109469468680ad077108cc891f2b20654da9
 });
